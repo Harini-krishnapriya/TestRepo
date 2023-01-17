@@ -30,13 +30,13 @@ while(dTn>delta_T)
 end
 % Segmenting Using Final Threshold value
 for i = 1:x
-        for j= 1:y
-            if(A(i,j)>T)
-               r(i,j)=255;
-            else 
-               r(i,j)=0;
-            end
-        end
+     for j= 1:y
+          if(A(i,j)>T)
+               r(i,j)=255; %Segmented Image
+          else 
+               r(i,j)=0; %Segmented Image
+          end
+     end
 end
 % Displaying Segmented Image
 subplot(121)
