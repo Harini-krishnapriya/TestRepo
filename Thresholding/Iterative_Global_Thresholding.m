@@ -32,9 +32,9 @@ end
 for i = 1:x
         for j= 1:y
             if(A(i,j)>T)
-                r(i,j)=255;
+               r(i,j)=255;
             else 
-                r(i,j)=0;
+               r(i,j)=0;
             end
         end
 end
